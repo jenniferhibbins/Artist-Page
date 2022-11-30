@@ -1,13 +1,13 @@
 body {
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(128, 128, 128, 0.705);
 }
 h1 {
     font-family: 'Libre Baskerville', serif;
-    color: rgb(212, 16, 16)
+    color: rgb(212, 16, 16);
 }
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(212, 16, 16)
+    color: rgb(212, 16, 16);
 }
 nav {
     margin: auto;
@@ -20,10 +20,11 @@ nav {
 .bio {
     font-family: 'Libre Baskerville', serif;
 }
-
+/*
 .books body{
     background-image: url(https://cdn.pixabay.com/photo/2016/09/13/08/44/library-1666702_960_720.jpg);
-}
+} */
+
 table {
     width: 75%;
     border: 10px;
@@ -32,11 +33,21 @@ table, td {
 text-indent: 0px;
 font-family: 'Libre Baskerville', serif;
 }
-.awards{
+.awards {
     margin-right: 500px;
 
 }
 .titles {
     text-align: center;
     text-indent: 10px;
+    font-style: italic;
+}
+.inset {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    padding: 10px 70px 10px 70px;
+    margin: 0px;
+    table border: 10px;
+    width: 38.5%;
 }
