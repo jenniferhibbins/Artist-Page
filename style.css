@@ -9,6 +9,10 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(212, 16, 16);
 }
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
 nav {
     margin: auto;
     display: flex;
@@ -46,8 +50,11 @@ font-family: 'Libre Baskerville', serif;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.89);
     color: white;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 50px 10px 50px;
     margin: 0px;
     table border: 10px;
     width: 38.5%;
+}
+.form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
