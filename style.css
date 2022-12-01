@@ -20,6 +20,7 @@ nav {
     justify-content: space-evenly;
     width: 75%;
     font-family: 'Libre Baskerville', serif;
+    /*background-color: rgba(0, 0, 0, 0.63);*/
 }
 .bio {
     font-family: 'Libre Baskerville', serif;
@@ -29,6 +30,10 @@ nav {
     background-image: url(https://cdn.pixabay.com/photo/2016/09/13/08/44/library-1666702_960_720.jpg);
 } */
 
+/*.novels {
+    display: flex;
+    flex-flow: row wrap;
+}*/
 table {
     width: 75%;
     border: 10px;
@@ -36,15 +41,19 @@ table {
 table, td {
 text-indent: 0px;
 font-family: 'Libre Baskerville', serif;
+padding: 5px;
 }
-.awards {
+/*.awards {
     margin-right: 500px;
 
-}
+}*/
 .titles {
     text-align: center;
     text-indent: 10px;
     font-style: italic;
+}
+.pubdate {
+    text-decoration: wavy underline white;
 }
 .inset {
     text-align: center;
@@ -52,7 +61,6 @@ font-family: 'Libre Baskerville', serif;
     color: white;
     padding: 10px 50px 10px 50px;
     margin: 0px;
-    table border: 10px;
     width: 38.5%;
 }
 .form {
