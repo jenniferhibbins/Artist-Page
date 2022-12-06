@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body><center>
+    <h1>A.M. Homes</h1>
+    <nav>
+         <a href="https://www.amhomesbooks.com/">Official Site</a> <a href="https://www.goodreads.com/author/show/598299.A_M_Homes">GoodReads Reviews</a> <a href="/index.html">Return Home</a>
+
+   </nav>
     <p>
         <h2>Join the A.M. Homes Fan Club!</h2>
         <h3>Sign up to receive my monthly e-Newsletter with the latest fan news on author A.M. Homes.</h3>
@@ -25,6 +30,15 @@
          <input type="text" name="comment" id="comment"><br>
 
     </form>
+    <br>
+
+    <button onclick="submit()">Join Now</button>
+<p id="form"></p>
+<script>
+    function submit(){
+        document.getElementById("form").innerHTML = "Thank you for joining!"
+    }
+</script>
 <p>
     <img src="https://cdn.pixabay.com/photo/2013/07/13/01/09/books-155185_960_720.png" alt="stack of books" width="600px">
 </p>
